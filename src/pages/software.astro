@@ -7,14 +7,22 @@ import HorizontalCard from "../components/HorizontalCard.astro";
   <div>
     <div class="flex justify-center text-4xl w-full font-bold mb-5">Software</div>
   </div>
-
+  <HorizontalCard
+    title="Grid Cell Conductance-based Model"
+    img="/GridCells.svg"
+    desc="A conductance-based model of Grid cells, implemented using the NEURON simulator \
+    with parallelized functionality for efficient simulations. Grid cells are crucial for \
+    spatial navigation, and this model replicates their dynamics with biologically realistic conductances. \
+    Code architect : Inayath Shaikh"
+    #badge="New"
+    url="https://assisilab.github.io/GridCellsCond"
+  />
     <HorizontalCard
     title="PSST"
     img="/psst.png"
     desc="PSST is a neuronal network simulation tool that simulates networks of conductance based neurons. It piggybacks on TensorFlow to integrate differential equations. This is a very bare-bones package written using readable Python code, but without any bells or whistles. You can read the code and implement your own. It also exposes some of the memory constraints of GPU accelerators. \
     Code Architect: Saptarshi Soham Mohanta"
     url="#"
-    #badge="NEW"
   />
   <div class="divider my-0"></div>
   <HorizontalCard

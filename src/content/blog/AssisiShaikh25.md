@@ -7,3 +7,4 @@ heroImage: "/gridNetwork.jpg"
 badge: "new publication"
 tags: ["bioRxiv"]
 ---
+[Animation showing the activity of the grid cell network along a trajectory in 2D](https://figshare.com/articles/media/2D_Grid_cell_patterns/28778450/2?file=53608943)
